@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Radio Button</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cse">Computer Science Engineering</string>
+    <string name="ce">Computer Engineering</string>
+    <string name="it">Information Technology</string>
+
+</resources>

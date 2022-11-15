@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+>
+
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginVertical="10dp"
+        android:text="India, China, Australia, New Zealand, England, UAE"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/simpleAutoCompleteTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHeading"
+        android:layout_margin="10dp"
+        android:background="@color/teal_200"
+        android:hint="Enter Country Name"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

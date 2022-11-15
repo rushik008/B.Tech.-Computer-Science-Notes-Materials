@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="80px"
+        android:text="Enter Two Numbers"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="80px"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/edtNumberOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_title"
+        android:inputType="number"
+        android:hint="Enter First Number"
+        android:layout_marginVertical="10px"
+        android:layout_marginHorizontal="20px"
+        />
+
+    <EditText
+        android:id="@+id/edtNumberTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNumberOne"
+        android:layout_marginHorizontal="20px"
+        android:layout_marginVertical="10px"
+        android:hint="Enter Second Number"
+        android:inputType="number"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        >
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10px"
+        android:text="+"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10px"
+        android:text="/"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnmul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10px"
+        android:text="*"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10px"
+        android:text="-"
+        android:textSize="50px"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ansLayout"
+        android:layout_below="@+id/btnLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/txtanswerheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnLayout"
+        android:text="ANSWER: "
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtans"
+        android:layout_toRightOf="@+id/txtanswerheading"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="55"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        />
+</LinearLayout>
+
+</RelativeLayout>

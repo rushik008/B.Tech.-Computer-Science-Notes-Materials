@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/idHeaderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/EmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idHeaderName"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/PasswordEditText"
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EmailEditText"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/TextViewAttemptsLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PasswordEditText"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="ATTEMPTS LEFT:"
+        android:textAlignment="textStart"
+        android:textColor="@color/grey"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewNoOfAttempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PasswordEditText"
+        android:layout_toRightOf="@id/TextViewAttemptsLeft"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="3"
+        android:textColor="@color/grey"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewAttemptsLeft"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="STATUS:"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textColor="@color/grey"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/TextViewStatusResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewAttemptsLeft"
+        android:layout_toRightOf="@id/TextViewStatus"
+        android:text="SUCCESSFUL"
+        android:visibility="invisible"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/LoginBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewStatus"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/blue"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/CancelBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewStatus"
+        android:layout_toRightOf="@id/LoginBtn"
+        android:backgroundTint="@color/slateGrey"
+        android:layout_marginTop="18dp"
+        android:text="Cancel"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="80px"
+        android:text="Enter Distance in km"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="80px"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/edtEnterKms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_title"
+        android:inputType="number"
+        android:hint="Enter Kilometers"
+        android:layout_marginVertical="10px"
+        android:layout_marginHorizontal="20px"
+        />
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edtEnterKms"
+        android:text="Result"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMeter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_below="@+id/btnResult"
+            android:text="Meters: "
+            android:textSize="80px"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/txtAnsMeter"
+            android:layout_below="@id/btnResult"
+            android:layout_toRightOf="@+id/txtMeter"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="55"
+            android:textSize="80px"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:visibility="invisible"
+            />
+
+    <TextView
+        android:id="@+id/txtCm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_below="@+id/txtAnsMeter"
+        android:text="Centimeters: "
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtAnsCm"
+        android:layout_toRightOf="@id/txtCm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAnsMeter"
+        android:text="55"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

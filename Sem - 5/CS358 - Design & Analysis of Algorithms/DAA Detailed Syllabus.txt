@@ -1,0 +1,62 @@
+-->
+  Asymptotic Notations
+  Recurrence Relation
+  Master's Theorem
+  Strassen's Matrix Multiplication
+  Time Complexity
+
+
+--> Greedy:
+  Huffman Coding
+  Fractional Knapsack Problem
+  Job scheduling problem
+  Making change problem
+
+
+--> Divide and Conquer
+  Multiplication of large integer problem
+  Binary Search
+  Sorting algorithms: Merge and Quick
+  Matrix Multiplication
+  Exponential
+
+
+--> DP:
+  Matrix Chain Multiplication
+  Bionomial co-efficient
+  Coin change
+  0-1 Knapsack
+  LCS (Longest Common Subsequence)
+  Assembly line scheduling
+
+
+--> Graph Algorithms:
+  DFS
+  BFS
+ -> DP:
+  Bellman Ford
+  Floyd Warshall
+ -> Greedy:
+  Prims
+  Kruskal’s
+  Dijkstra
+
+
+--> Branch & Bound:
+  Job sequencing with Deadlines
+  0/1 Knapsack
+
+
+--> Backtracking
+  The n queens problem
+  0-1 Knapsack
+
+
+--> String matching
+  Naive string matching
+  Rabin Karp
+
+
+--> NP
+  NP Hard
+  NP Complete

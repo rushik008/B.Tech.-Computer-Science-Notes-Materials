@@ -1,10 +1,6 @@
 # B.Tech.-Computer-Science-Notes-Materials 📚
 
-<<<<<<< HEAD
-Still improving and will add many more study materials into it !
-=======
 Still improving and will add many more study materials to it!
->>>>>>> dc4b25143340571c44bfce9bed77a3dd1ff11cf1
 
 ## Important! ✨
 
@@ -12,11 +8,7 @@ Still improving and will add many more study materials to it!
 Providing reading materials, practical files, and assignments does NOT exclude you from trying them all on your own.<br>
 Make good use of it.</b>
 
-<<<<<<< HEAD
-This readme consists of all the details of all the semesters and the coursses.
-=======
 This readme consists of all the details of all the semesters and the courses.
->>>>>>> dc4b25143340571c44bfce9bed77a3dd1ff11cf1
 
 # Semester Details
 
@@ -103,8 +95,8 @@ This readme consists of all the details of all the semesters and the courses.
 | CS350       | OPERATING SYSTEMS               |
 | CS358       | DESIGN & ANALYSIS OF ALGORITHMS |
 | CS359       | SOFTWARE ENGINEERING            |
-| CS381       | FULL STACK DEVELOPMENT          |
 | CS380       | MOBILE APPLICATION DEVELOPMENT  |
+| CS381       | FULL STACK DEVELOPMENT          |
 
 ### Submissions
 

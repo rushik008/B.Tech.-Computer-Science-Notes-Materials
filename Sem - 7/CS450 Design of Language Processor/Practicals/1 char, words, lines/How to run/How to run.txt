@@ -1,0 +1,5 @@
+/* Run this Commands Line by Line */
+
+lex pr1.l
+gcc lex.yy.c
+a.exe

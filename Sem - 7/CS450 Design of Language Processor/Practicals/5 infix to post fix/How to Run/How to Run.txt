@@ -1,0 +1,5 @@
+yacc pr5.y
+gcc pr5.tab.c -o a
+a.exe or ./a.exe
+
+i/p: (2+3)*5

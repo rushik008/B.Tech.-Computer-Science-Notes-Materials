@@ -1,0 +1,3 @@
+/* Run this Commands */
+gcc pr4.c -o a
+a.exe

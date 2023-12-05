@@ -1,0 +1,35 @@
+%{
+#include <stdio.h>
+int lc = 0, wc = 0, cc = 0;
+int in_word = 0; // This variable tracks whether we are in a word
+%}
+
+%%
+\n      { lc++; }
+[ \t]+  {
+    if (in_word) {
+        wc++; // This is a word boundary
+        in_word = 0; // Reset the flag
+    }
+}
+.       { in_word = 1; } // This character is part of a word
+%%
+
+int main(int argc, char* argv[]) {
+    printf("Enter the input:\n");
+    yylex();
+    
+    // Check if there's an incomplete word at the end of the input
+    if (in_word) {
+        wc++;
+    }
+    
+    printf("The number of lines = %d\n", lc);
+    printf("The number of words = %d\n", wc);
+    printf("The number of characters = %d\n", cc); // cc still counts characters
+    return 0;
+}
+
+int yywrap() {
+    return 1;
+}

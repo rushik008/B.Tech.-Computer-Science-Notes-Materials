@@ -119,3 +119,20 @@ This readme consists of all the details of all the semesters and the courses.
 
 [![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rushik008/B.Tech.-Computer-Science-Notes-Materials/tree/master/Sem%20-%206)
 <br><br>
+
+## SEM 7
+
+### Course Details
+
+| COURSE CODE | COURSE NAME                          |
+| ----------- | ------------------------------------ |
+| CS442       | DATA SCIENCE AND ANALYTICS           |
+| CS449       | INTERNET OF THINGS                   |
+| CS450       | DESIGN OF LANGUAGE PROCESSOR         |
+| CS451       | ADVANCE COMPUTING                    |
+| CS474       | IMAGE PROCESSING AND COMPUTER VISION |
+
+### Submissions
+
+[![](https://img.shields.io/badge/Practical_Files_&_Assignments-Click_Here-%23FF0000.svg?&style=flat&logoColor=white&color=white)](https://github.com/rushik008/B.Tech.-Computer-Science-Notes-Materials/tree/master/Sem%20-%207)
+<br><br>

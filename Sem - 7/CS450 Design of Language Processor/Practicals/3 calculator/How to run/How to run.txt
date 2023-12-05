@@ -1,0 +1,5 @@
+/* Run this Commands */
+lex pr3.l
+yacc pr3.y
+gcc pr3.tab.c -o a
+a.exe

@@ -18,6 +18,7 @@ This readme consists of all the details of all the semesters and the courses.
 - [SEM 4](https://github.com/rushik008/B.Tech.-Computer-Science-Notes-Materials#sem-4)
 - [SEM 5](https://github.com/rushik008/B.Tech.-Computer-Science-Notes-Materials#sem-5)
 - [SEM 6](https://github.com/rushik008/B.Tech.-Computer-Science-Notes-Materials#sem-6)
+- [SEM 7](https://github.com/rushik008/B.Tech.-Computer-Science-Notes-Materials#sem-7)
 
 ## SEM 1
 
